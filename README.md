@@ -142,10 +142,11 @@ entrada_zeros = {
     'bairro_Ditmars Steinway': 0
 }
 
- Sequência das Colunas
+ - Sequência das Colunas
+   
 sequencia_colunas = ['room_type_Entire home/apt', 'bairro_group_Manhattan', 'bairro_Midtown', 'bairro_group_Queens', 'bairro_Bushwick', 'bairro_Chelsea', 'bairro_West Village', 'room_type_Shared room', "bairro_Hell's Kitchen", 'bairro_Bedford-Stuyvesant', 'disponibilidade_365', 'bairro_Tribeca', 'bairro_SoHo', 'bairro_group_Bronx', 'bairro_Upper West Side', 'bairro_East Village', 'bairro_Murray Hill', 'bairro_Greenwich Village', 'bairro_Washington Heights', 'bairro_Upper East Side', 'bairro_Harlem', 'bairro_Ridgewood', 'bairro_Flatbush', 'bairro_NoHo', 'bairro_Financial District', 'bairro_Crown Heights', 'bairro_Astoria', 'bairro_East Flatbush', 'bairro_Kips Bay', 'calculado_host_listings_count', 'bairro_Sunnyside', 'bairro_Flatiron District', 'bairro_Flushing', 'bairro_Gramercy', 'bairro_Elmhurst', 'bairro_Nolita', 'bairro_Borough Park', 'numero_de_reviews', 'bairro_Theater District', 'bairro_Prospect-Lefferts Gardens', 'bairro_Woodside', 'bairro_group_Staten Island', 'bairro_Jackson Heights', 'bairro_East New York', 'bairro_Inwood', 'bairro_Ditmars Steinway']
 
- Criar DataFrame na sequência
+ 
 entrada_zeros_df = pd.DataFrame([entrada_zeros], columns=sequencia_colunas)
 
 
