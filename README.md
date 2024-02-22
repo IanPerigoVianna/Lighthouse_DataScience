@@ -82,13 +82,13 @@ Se você deseja carregar um modelo treinado salvo com o `pickle`, siga estas eta
     ```python
   ###################### DOCUMENTAÇÃO DE INPUT DAS CHAVES PARA PREVISÃO DO PREÇO DO IMÓVEL #########################
 
-# Room_type preencha 1  em room_type entire home/apt caso o aluguel seja do imóvel completo e 0 caso não seja.
-# Room_type preencha 1  em room_type shared caso o aluguel seja de quarto compartilhado 0 caso não seja.
-# Bairro_group preencha 1 para se o imóvel está localizado nesse bairro_group e 0 caso ele não esteja.
-# Bairro preencha 1 caso o imóvel esteja neste bairro e 0 caso não esteja
-# Disponibilidade 365_ preencha a quantidade de dias que o imóvel está disponível por ano
-# Calculado host_listening_counts preencha com a quantidade de anuncios do imóvel
-# Numero_de_reviews preencha com a quantidade de avaliações que o imóvel tem.
+- Room_type preencha 1  em room_type entire home/apt caso o aluguel seja do imóvel completo e 0 caso não seja.
+- Room_type preencha 1  em room_type shared caso o aluguel seja de quarto compartilhado 0 caso não seja.
+- Bairro_group preencha 1 para se o imóvel está localizado nesse bairro_group e 0 caso ele não esteja.
+- Bairro preencha 1 caso o imóvel esteja neste bairro e 0 caso não esteja
+- Disponibilidade 365_ preencha a quantidade de dias que o imóvel está disponível por ano
+- Calculado host_listening_counts preencha com a quantidade de anuncios do imóvel
+- Numero_de_reviews preencha com a quantidade de avaliações que o imóvel tem.
 
 ################ PREENCHA ABAIXO ##############
 entrada_zeros = {
