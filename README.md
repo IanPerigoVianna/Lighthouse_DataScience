@@ -80,7 +80,7 @@ Se você deseja carregar um modelo treinado salvo com o `pickle`, siga estas eta
    - preencha os campos conforme indicado na documentação
 
     ```python
-  ###################### DOCUMENTAÇÃO DE INPUT DAS CHAVES PARA PREVISÃO DO PREÇO DO IMÓVEL #########################
+  ####### DOCUMENTAÇÃO DE INPUT DAS CHAVES PARA PREVISÃO DO PREÇO DO IMÓVEL ##########
 
 - Room_type preencha 1  em room_type entire home/apt caso o aluguel seja do imóvel completo e 0 caso não seja.
 - Room_type preencha 1  em room_type shared caso o aluguel seja de quarto compartilhado 0 caso não seja.
@@ -90,8 +90,10 @@ Se você deseja carregar um modelo treinado salvo com o `pickle`, siga estas eta
 - Calculado host_listening_counts preencha com a quantidade de anuncios do imóvel
 - Numero_de_reviews preencha com a quantidade de avaliações que o imóvel tem.
 
-################ PREENCHA ABAIXO ##############
+###### PREENCHA ABAIXO #######
+
 entrada_zeros = {
+
     'room_type_Entire home/apt': 1,
     'bairro_group_Manhattan': 1,
     'bairro_Midtown': 1,
